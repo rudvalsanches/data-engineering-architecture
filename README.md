@@ -169,10 +169,9 @@ docker-compose down
 
 Para remover os dados persistidos do PostgreSQL, exclua a pasta `db_data/` (atenção: isso deleta os dados permanentemente).
 
-## Licença
+## Exemplos de Visualizações no Metabase
 
-Este projeto é de uso livre e aberto para modificações. Fique à vontade para contribuir, adaptar e compartilhar conforme suas necessidades.
+Após configurar o Metabase com os dados do AWS Athena, é possível criar diversas visualizações para análise.  
+Abaixo estão alguns exemplos de gráficos criados:
 
----
-
-Se precisar de ajustes ou mais detalhes, é só avisar!
+![Exemplo de Gráficos no Metabase](image/exemplo_graficos.png)
