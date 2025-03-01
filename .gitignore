@@ -1,0 +1,9 @@
+# Ignorar o arquivo de variáveis de ambiente com segredos
+.env
+
+# Ignorar arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Opcional: Ignorar o diretório de dados do PostgreSQL, se não quiser versionar
+db_data/
