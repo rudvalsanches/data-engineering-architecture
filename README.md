@@ -1,7 +1,3 @@
-Aqui está o README gerado com base na documentação que você forneceu. Ele está bem estruturado, claro e segue as melhores práticas para documentação de projetos:
-
----
-
 # Data Engineering Project
 
 Este projeto demonstra um pipeline completo de engenharia de dados utilizando **PostgreSQL**, **Python**, **AWS S3**, **Athena** e **Metabase** para ingestão, armazenamento, consulta e visualização de dados.
