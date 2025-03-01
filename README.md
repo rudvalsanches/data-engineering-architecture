@@ -19,22 +19,7 @@ Este projeto demonstra um pipeline completo de engenharia de dados utilizando **
 
 ## Arquitetura Simplificada
 
-```
-+------------------+       +---------------------+
-| PostgreSQL       |       |     APIs Públicas   |
-| (dados fictícios)|       | (JSONPlaceholder,   |
-+--------+---------+       |  Open Brewery DB)   |
-         |                         |
-         | (Ingestão/Extração)     |
-         v                         v
-    [ Scripts Python ] --> [ S3 (Parquet) ]
-                                |
-                                v
-                           [ AWS Athena ]
-                                |
-                                v
-                           [ Metabase ]
-```
+![Arquitetura do Estudo](image/arquitetura_estudo.png)
 
 ## Estrutura do Projeto
 
